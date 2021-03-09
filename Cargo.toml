@@ -1,0 +1,15 @@
+[package]
+name = "actix-web-csv-json-api"
+version = "0.1.0"
+authors = ["vagrant"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = {version = "3.3.0", features = ["openssl"]}
+serde = { version = "1.0", features = ["derive"] }
+openssl = "0.10.32"
+encoding_rs = "0.8.26"
+csv = "1.1.5"
+serde_json = "1.0"
